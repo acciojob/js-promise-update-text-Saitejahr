@@ -7,6 +7,6 @@ function Hello(){
 	});
 }
 
-Hello().then((data) => {
-   output.textContent = data;
+Hello().then((res) => {
+   output.textContent = res;
 });
